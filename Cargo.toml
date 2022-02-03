@@ -8,5 +8,9 @@ edition = "2018"
 
 [dependencies]
 warp = "0.1.17"
+postgres = "0.15"
 serde = "1.0.94"
 serde_derive = "1.0.94"
+bcrypt = "0.4"
+chrono = { version = "0.4", features = ["serde"] }
+rawsql = "0.1.0"
